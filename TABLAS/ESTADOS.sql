@@ -46,7 +46,7 @@ Insert into SUAF.ESTADOS (ESTADO_ID,NOMBRE_ESTADO,ES_EDITABLE) values ('7','OBSO
   BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
   TABLESPACE "USERS" ;
 --------------------------------------------------------
---  Constraints for Table ESTADOS
+--  Constraints for Table ESTADOS s
 --------------------------------------------------------
 
   ALTER TABLE "SUAF"."ESTADOS" MODIFY ("ESTADO_ID" NOT NULL ENABLE);
